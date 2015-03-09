@@ -41,6 +41,13 @@ a {
 	cursor: pointer;
 }
 
+h3 {
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 24px;
+	font-family: Georgia, serif;
+}
+
 .page-wrapper {
 	position: absolute;
 	left: 0;
@@ -97,4 +104,58 @@ a {
 	width: 100%;
 	position: relative;
 	z-index: 1;
+}
+
+.post {
+}
+
+.post h2 a,
+.post h3 a {
+	color: #191919;
+}
+
+.post .post-info {
+	font-size: 12px;
+	line-height: 16px;
+	color: #808184;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.post .more-link {
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 9px;
+	text-transform: uppercase;
+}
+
+.post-short {
+	padding: 0 0 54px 0;
+	position: relative;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 14px;
+
+	padding-left: 200px;
+}
+
+.post-short h3 {
+	font-size: 21px;
+	line-height: 24px;
+	border-bottom: 1px solid #eeeeef;
+	padding-bottom: 7px;
+	margin: -3px 0 7px;
+}
+
+.post-short .wp-post-image {
+	float: left;
+	margin-left: -200px;
+	width: 180px;
+}
+
+.post-short .entry {
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 9px;
 }
