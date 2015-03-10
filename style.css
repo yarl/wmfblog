@@ -41,6 +41,10 @@ a {
 	cursor: pointer;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 h3 {
 	font-size: 21px;
 	font-weight: bold;
@@ -158,4 +162,43 @@ h3 {
 	font-size: 16px;
 	line-height: 19px;
 	margin-bottom: 9px;
+}
+
+
+.widget .post {
+	padding-bottom: 27px;
+}
+
+.widget .widget-header {
+	font-family: 'Helvetica Neue', serif;
+	font-size: 14px;
+	line-height: 21px;
+	border-bottom: 1px solid #eeeeef;
+	padding-bottom: 7px;
+	margin-bottom: 5px;
+}
+
+.widget h3 {
+	font-size: 16px;
+	line-height: 18px;
+	padding-bottom: 3px;
+}
+
+.widget .post-info {
+	font-size: 9px;
+	margin-bottom: 0;
+}
+
+.widget .post-info .pull-right {
+	display: inline-block;
+	float: right;
+}
+
+.widget .entry {
+	font-size: 12px;
+	line-height: 14px;
+	height: 28px;
+	color: #58595b;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
