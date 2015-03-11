@@ -52,6 +52,10 @@ h3 {
 	font-family: Georgia, serif;
 }
 
+.text-right {
+	text-align: right;
+}
+
 .page-wrapper {
 	position: absolute;
 	left: 0;
@@ -165,40 +169,62 @@ h3 {
 }
 
 
-.widget .post {
+.widget-container .post {
 	padding-bottom: 27px;
 }
 
-.widget .widget-header {
+.widget-container .widget-title {
 	font-family: 'Helvetica Neue', serif;
 	font-size: 14px;
 	line-height: 21px;
 	border-bottom: 1px solid #eeeeef;
 	padding-bottom: 7px;
 	margin-bottom: 5px;
+	font-weight: normal;
 }
 
-.widget h3 {
+.widget-container h3 {
 	font-size: 16px;
 	line-height: 18px;
 	padding-bottom: 3px;
 }
 
-.widget .post-info {
+.widget-container .post-info {
 	font-size: 9px;
 	margin-bottom: 0;
 }
 
-.widget .post-info .pull-right {
+.widget-container .post-info .pull-right {
 	display: inline-block;
 	float: right;
 }
 
-.widget .entry {
+.widget-container .entry {
 	font-size: 12px;
 	line-height: 14px;
 	height: 28px;
 	color: #58595b;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.widget-container.widget_text,
+.widget-container ul {
+	padding-bottom: 27px;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+.widget-quote {
+	background-color: #f1f1f1;
+	padding: 10px 20px 20px;
+}
+
+.widget-quote p {
+	font-size: 18px;
+	line-height: 19px;
+	color: #58595b;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 5px 0;
 }

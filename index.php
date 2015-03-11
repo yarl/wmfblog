@@ -17,8 +17,8 @@
 			<?php endwhile; endif; ?>
 		</div>
 		<div class="col-xs-12 col-md-4 col-lg-4">
-			<div class="widget">
-				<h2 class="widget-header">Najczęściej komentowane</h2>
+			<div class="widget-container">
+				<h2 class="widget-title">Najczęściej komentowane</h2>
 			    <?php $wp_query =
 			        new WP_Query('caller_get_posts=1&orderby=comment_count&posts_per_page=10');
 			        while ($wp_query->have_posts()) : $wp_query->the_post(); { ?>
